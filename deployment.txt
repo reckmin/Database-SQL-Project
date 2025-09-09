@@ -1,0 +1,1 @@
+FileZilla was used  to run the PHP index file in folder public_html.

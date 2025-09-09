@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500');
+
+body {
+  background: #f3e9ff;
+  font-family: 'Quicksand', serif;
+}
+.header {
+  position: static;
+  top: 5px;
+  left: 1%;
+
+}
+.header h1 {
+  font-size: 2.875em;
+  color: rgba(255, 255, 255, .1);
+  background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background-repeat: repeat-x;
+  -webkit-background-clip: text;
+  animation-name: colorchange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.header h1:hover {
+
+  cursor: pointer;
+}
+
+@keyframes colorchange {
+  0% {
+    background-position: right 0px bottom 0px;
+  }
+  100% {
+    background-position: right 10em bottom 0px;
+  }
+}

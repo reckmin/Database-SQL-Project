@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="unnamed">
+    <output-path>$PROJECT_DIR$/out/artifacts/unnamed</output-path>
+    <root id="root">
+      <element id="file-copy" path="$PROJECT_DIR$/../../../2021_Winter/DBS/FINAL/sources/java/datasets/Customer.csv" />
+    </root>
+  </artifact>
+</component>
